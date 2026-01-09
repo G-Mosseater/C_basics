@@ -11,7 +11,9 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
-                "-lm"
+                "-lm",   
+                 "-lcs50"
+
             ],
             "options": {
                 "cwd": "${fileDirname}"
